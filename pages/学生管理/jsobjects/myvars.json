@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "学生管理",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tschool_year: \"2022-2023\",\n\tmygrade: [\n  {\n    \"label\": \"高一\",\n    \"value\": \"高一\"\n  },\n  {\n    \"label\": \"高二\",\n    \"value\": \"高二\"\n  },\n  {\n    \"label\": \"高三\",\n    \"value\": \"高三\"\n  },\n  {\n    \"label\": \"自强\",\n    \"value\": \"自强\"\n  }],\n\tfunc_ssns: () => {\n\t\tfind_ssn.run();\n\t\tif (find_ssn.data.n > 0){\n\t\t\tshowAlert(\"身份证重复\");\n\t\t};\n}\n}",
+    "variables": [
+      {
+        "name": "school_year",
+        "value": "\"2022-2023\""
+      },
+      {
+        "name": "mygrade",
+        "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}, {\n  \"label\": \"自强\",\n  \"value\": \"自强\"\n}]"
+      }
+    ]
+  },
+  "id": "学生管理_myvars",
+  "deleted": false,
+  "gitSyncId": "62f2015cb2f8027edfbff39b_62f20d9eb2f8027edfbff91d"
+}

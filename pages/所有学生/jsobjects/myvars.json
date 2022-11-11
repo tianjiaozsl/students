@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "所有学生",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tschool_year: \"2022-2023\",\n\tmygrade: [\n  {\n    \"label\": \"高一\",\n    \"value\": \"高一\"\n  },\n  {\n    \"label\": \"高二\",\n    \"value\": \"高二\"\n  },\n  {\n    \"label\": \"高三\",\n    \"value\": \"高三\"\n  },\n  {\n    \"label\": \"自强\",\n    \"value\": \"自强\"\n  }\n],\n\tcopyStu: (data = update_form.formData) => {\n\t\tdata[\"school_year\"] = \"2022-2023\";\n\t\treturn data;\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "school_year",
+        "value": "\"2022-2023\""
+      },
+      {
+        "name": "mygrade",
+        "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}, {\n  \"label\": \"自强\",\n  \"value\": \"自强\"\n}]"
+      }
+    ]
+  },
+  "id": "所有学生_myvars",
+  "deleted": false,
+  "gitSyncId": "62f8bbdf29672c1ac253500d_630b6b92d4d6a85cfbddf3cd"
+}

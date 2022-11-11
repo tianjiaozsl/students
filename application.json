@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "id": "学生管理",
+      "isDefault": true
+    },
+    {
+      "id": "学生注册",
+      "isDefault": false
+    },
+    {
+      "id": "班级管理",
+      "isDefault": false
+    },
+    {
+      "id": "所有学生",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C2DAF0",
+  "icon": "snowy-weather",
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

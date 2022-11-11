@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "myvars",
+    "pageId": "学生注册",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tschool_year: \"2022-2023\",\n\tmygrade: [\n  {\n    \"label\": \"高一\",\n    \"value\": \"高一\"\n  },\n  {\n    \"label\": \"高二\",\n    \"value\": \"高二\"\n  },\n  {\n    \"label\": \"高三\",\n    \"value\": \"高三\"\n  },\n  {\n    \"label\": \"自强\",\n    \"value\": \"自强\"\n  }\n],\n\tfindSsn : async () => {\n\t\tawait FindQuery.run();\n\t\tif (FindQuery.data.length==1){\n\t\t\tshowModal(\"Edit_Modal\");\n\t\t}\n\t\telse {\n\t\t\tshowAlert(\"没有这个身份证号的信息！\");\n\t\t}\n\t\t\n\t}\n}",
+    "variables": [
+      {
+        "name": "school_year",
+        "value": "\"2022-2023\""
+      },
+      {
+        "name": "mygrade",
+        "value": "[{\n  \"label\": \"高一\",\n  \"value\": \"高一\"\n}, {\n  \"label\": \"高二\",\n  \"value\": \"高二\"\n}, {\n  \"label\": \"高三\",\n  \"value\": \"高三\"\n}, {\n  \"label\": \"自强\",\n  \"value\": \"自强\"\n}]"
+      }
+    ]
+  },
+  "id": "学生注册_myvars",
+  "deleted": false,
+  "gitSyncId": "62f321cc145f5a0e92b63d3b_62f4802c145f5a0e92b63dda"
+}
