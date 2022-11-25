@@ -2715,11 +2715,11 @@
                                     "wenli": {
                                       "children": {},
                                       "dataType": "string",
-                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.wenli))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.beizhu))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                                       "fieldType": "Text Input",
                                       "sourceData": "理科",
                                       "isCustomField": false,
-                                      "accessor": "wenli",
+                                      "accessor": "beizhu",
                                       "identifier": "wenli",
                                       "position": 23,
                                       "originalIdentifier": "wenli",
@@ -2732,7 +2732,7 @@
                                       "isSpellCheck": false,
                                       "isVisible": true,
                                       "labelTextSize": "0.875rem",
-                                      "label": "文理"
+                                      "label": "备注"
                                     },
                                     "grade": {
                                       "children": {},
