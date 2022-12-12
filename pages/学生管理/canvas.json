@@ -1626,7 +1626,7 @@
                             "name": {
                               "children": {},
                               "dataType": "string",
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(InsertForm.sourceData, InsertForm.formData, InsertForm.fieldState)}}",
+                              "defaultValue": "",
                               "fieldType": "Text Input",
                               "sourceData": "",
                               "isCustomField": false,
@@ -1715,7 +1715,7 @@
                               "regex": "[0-9X]{18}",
                               "errorMessage": "身份证长度不足或者重复！",
                               "onBlur": "{{myvars.func_ssns()}}",
-                              "validation": "{{((sourceData, formData, fieldState) => (find_ssn.data.n == 0))(InsertForm.sourceData, InsertForm.formData, InsertForm.fieldState)}}"
+                              "validation": ""
                             },
                             "jianhu_name": {
                               "children": {},
@@ -1963,7 +1963,7 @@
                             "sex": {
                               "children": {},
                               "dataType": "string",
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.sex))(InsertForm.sourceData, InsertForm.formData, InsertForm.fieldState)}}",
+                              "defaultValue": "",
                               "fieldType": "Text Input",
                               "sourceData": "",
                               "isCustomField": false,
@@ -2438,9 +2438,6 @@
                           "key": "childStylesheet.TEXT_INPUT.borderRadius"
                         },
                         {
-                          "key": "schema.__root_schema__.children.name.defaultValue"
-                        },
-                        {
                           "key": "schema.__root_schema__.children.name.accentColor"
                         },
                         {
@@ -2546,9 +2543,6 @@
                           "key": "schema.__root_schema__.children.huji_addr.borderRadius"
                         },
                         {
-                          "key": "schema.__root_schema__.children.sex.defaultValue"
-                        },
-                        {
                           "key": "schema.__root_schema__.children.sex.accentColor"
                         },
                         {
@@ -2625,9 +2619,6 @@
                         },
                         {
                           "key": "schema.__root_schema__.children.state.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.ssn.validation"
                         },
                         {
                           "key": "schema.__root_schema__.children.customField4.accentColor"

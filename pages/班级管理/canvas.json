@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 67,
           "minHeight": 850,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -762,7 +762,8 @@
                                   "label": "监护人身份证",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_ssn\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_ssn\"]))}}",
+                                  "validation": {}
                                 },
                                 "school_year": {
                                   "allowCellWrapping": false,
@@ -786,7 +787,8 @@
                                   "label": "学年",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"school_year\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"school_year\"]))}}",
+                                  "validation": {}
                                 },
                                 "ssn": {
                                   "allowCellWrapping": false,
@@ -810,7 +812,8 @@
                                   "label": "身份证",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ssn\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ssn\"]))}}",
+                                  "validation": {}
                                 },
                                 "jianhu_name": {
                                   "allowCellWrapping": false,
@@ -834,7 +837,8 @@
                                   "label": "监护人",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_name\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_name\"]))}}",
+                                  "validation": {}
                                 },
                                 "stu_id": {
                                   "allowCellWrapping": false,
@@ -858,7 +862,8 @@
                                   "label": "学号",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"stu_id\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"stu_id\"]))}}",
+                                  "validation": {}
                                 },
                                 "is_zhuxiao": {
                                   "allowCellWrapping": false,
@@ -882,7 +887,8 @@
                                   "label": "是否住校",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_zhuxiao\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_zhuxiao\"]))}}",
+                                  "validation": {}
                                 },
                                 "jianhu_danwei": {
                                   "allowCellWrapping": false,
@@ -906,7 +912,8 @@
                                   "label": "监护人单位",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_danwei\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_danwei\"]))}}",
+                                  "validation": {}
                                 },
                                 "state": {
                                   "allowCellWrapping": false,
@@ -930,7 +937,8 @@
                                   "label": "是否参试",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"state\"]))}}",
+                                  "validation": {}
                                 },
                                 "jianhu_zhiwu": {
                                   "allowCellWrapping": false,
@@ -954,7 +962,8 @@
                                   "label": "监护人职务",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_zhiwu\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_zhiwu\"]))}}",
+                                  "validation": {}
                                 },
                                 "class": {
                                   "allowCellWrapping": false,
@@ -978,7 +987,8 @@
                                   "label": "班级",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"class\"]))}}",
+                                  "validation": {}
                                 },
                                 "address": {
                                   "allowCellWrapping": false,
@@ -1002,7 +1012,8 @@
                                   "label": "住址",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"address\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"address\"]))}}",
+                                  "validation": {}
                                 },
                                 "huji_type": {
                                   "allowCellWrapping": false,
@@ -1026,7 +1037,8 @@
                                   "label": "户籍类型",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"huji_type\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"huji_type\"]))}}",
+                                  "validation": {}
                                 },
                                 "huji_addr": {
                                   "allowCellWrapping": false,
@@ -1050,7 +1062,8 @@
                                   "label": "户籍地址",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"huji_addr\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"huji_addr\"]))}}",
+                                  "validation": {}
                                 },
                                 "sex": {
                                   "allowCellWrapping": false,
@@ -1074,7 +1087,8 @@
                                   "label": "性别",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sex\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"sex\"]))}}",
+                                  "validation": {}
                                 },
                                 "jianhu_phone": {
                                   "allowCellWrapping": false,
@@ -1098,7 +1112,8 @@
                                   "label": "监护人电话",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_phone\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_phone\"]))}}",
+                                  "validation": {}
                                 },
                                 "huji_xiangzhen": {
                                   "allowCellWrapping": false,
@@ -1122,7 +1137,8 @@
                                   "label": "户籍乡镇",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"huji_xiangzhen\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"huji_xiangzhen\"]))}}",
+                                  "validation": {}
                                 },
                                 "phone": {
                                   "allowCellWrapping": false,
@@ -1146,7 +1162,8 @@
                                   "label": "电话",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}",
+                                  "validation": {}
                                 },
                                 "grade": {
                                   "allowCellWrapping": false,
@@ -1170,7 +1187,8 @@
                                   "label": "年级",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"grade\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"grade\"]))}}",
+                                  "validation": {}
                                 },
                                 "jianhu_chengwei": {
                                   "allowCellWrapping": false,
@@ -1194,7 +1212,8 @@
                                   "label": "称谓",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_chengwei\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jianhu_chengwei\"]))}}",
+                                  "validation": {}
                                 },
                                 "name": {
                                   "allowCellWrapping": false,
@@ -1218,7 +1237,8 @@
                                   "label": "姓名",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                                  "validation": {}
                                 },
                                 "_id": {
                                   "allowCellWrapping": false,
@@ -1242,7 +1262,8 @@
                                   "label": "_id",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"_id\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"_id\"]))}}",
+                                  "validation": {}
                                 },
                                 "minzu": {
                                   "allowCellWrapping": false,
@@ -1266,7 +1287,8 @@
                                   "label": "民族",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"minzu\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"minzu\"]))}}",
+                                  "validation": {}
                                 },
                                 "is_tuan": {
                                   "allowCellWrapping": false,
@@ -1290,7 +1312,8 @@
                                   "label": "是否团员",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_tuan\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_tuan\"]))}}",
+                                  "validation": {}
                                 },
                                 "is_canji": {
                                   "allowCellWrapping": false,
@@ -1314,7 +1337,8 @@
                                   "label": "是否残疾",
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
-                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_canji\"]))}}"
+                                  "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_canji\"]))}}",
+                                  "validation": {}
                                 },
                                 "is_xueji": {
                                   "allowCellWrapping": false,
@@ -1340,7 +1364,8 @@
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
                                   "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_xueji\"]))}}",
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "validation": {}
                                 },
                                 "zhusu": {
                                   "allowCellWrapping": false,
@@ -1366,7 +1391,8 @@
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
                                   "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zhusu\"]))}}",
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "validation": {}
                                 },
                                 "jiaotong": {
                                   "allowCellWrapping": false,
@@ -1392,7 +1418,8 @@
                                   "isSaveVisible": true,
                                   "isDiscardVisible": true,
                                   "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jiaotong\"]))}}",
-                                  "cellBackground": ""
+                                  "cellBackground": "",
+                                  "validation": {}
                                 }
                               },
                               "key": "7v8rr8t8uq",
@@ -3192,7 +3219,8 @@
                           "label": "总分",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zongfen\"]))}}"
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"zongfen\"]))}}",
+                          "validation": {}
                         },
                         "jici": {
                           "allowCellWrapping": false,
@@ -3216,7 +3244,8 @@
                           "label": "级次",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jici\"]))}}"
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jici\"]))}}",
+                          "validation": {}
                         },
                         "banci": {
                           "allowCellWrapping": false,
@@ -3240,7 +3269,8 @@
                           "label": "班次",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"banci\"]))}}"
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"banci\"]))}}",
+                          "validation": {}
                         },
                         "name": {
                           "allowCellWrapping": false,
@@ -3264,7 +3294,8 @@
                           "label": "姓名",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}"
+                          "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                          "validation": {}
                         }
                       },
                       "key": "crokoli5xb",
@@ -3388,6 +3419,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "班级管理",
         "deleted": false,
